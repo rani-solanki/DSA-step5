@@ -15,3 +15,10 @@ arr =[int(input(" enter the elements of array")) for each in range(arrSize)]
 print(arr)
 InsertArray(arr,arrSize)    
 
+
+
+
+
+
+
+
