@@ -7,8 +7,6 @@ def check_string(test):
         return 'Invalid'
         
 print(check_string(test_good))
-
-
 # confirm the string is valid or not using the opretors nd oprends 
 
 def isValid(string,n):
@@ -20,7 +18,7 @@ def isValid(string,n):
 
     ans1 = 0; ans2 = 0; ans3 = 0; 
     for i in range(len(string)):
-        if (string[i] != '+' and string[i] != '=' and string[i] != '-' and string[i]! = '*' and string[i]!='/'):
+        if (string[i] != '+' and string[i] != '=' and string[i] != '-' and string[i] != '*' and string[i]!='/'):
             operands[k] += string[i]; 
         else: 
             operators[k] = string[i]
