@@ -1,5 +1,4 @@
 # Binary Tree Traversal Easy Method 1
-
 class Node:
     def __init__(self, key):
         self.data = key

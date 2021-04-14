@@ -7,7 +7,6 @@ class Node:
     def PreOrder(self):
 
         print(self.val, end=' ')
-
         if self.left:
             self.left.PreOrder()
 
