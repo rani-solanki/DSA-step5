@@ -3,7 +3,7 @@ def factor(n) :
 	for i in range(1, n + 1):
 		res *= i
 	return res
-	
+
 def bin(n, k):
 	res = 1
 	if (k > n - k):
@@ -20,7 +20,7 @@ def catalan(n):
 def BST(n):
 	count = catalan(n)
 	return count
-
+	
 def BT(n):
 	count = catalan(n)
 	return count * factor(n)

@@ -22,7 +22,7 @@ def isValid(string,n):
             operands[k] += string[i]; 
         else: 
             operators[k] = string[i]
-
+            
             if (k == 1) : 
                 if (operators[k-1] == '+') : 
                     ans1 += int(operands[k -1]) + int(operands[k]); 

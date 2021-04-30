@@ -15,7 +15,7 @@ def inPrec(input):
 def outPrec(input):
     switch = {'+': 1,'-': 1,'*': 3,'/': 3,'%': 3,'(': 100,}
     return switch.get(input, 0)
-
+    
 def inToPost(input):
     i = 0
     s = []

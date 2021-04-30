@@ -1,5 +1,5 @@
 class Students:
-
+    
     stream = 'Rani Solanki'                 
     def __init__(self,name,collegeName,subject):
         self.name = name           

@@ -6,9 +6,8 @@ def TowerOfHanoi(n , from_rod, to_rod, aux_rod):
     
     print("Move disk",n,"from rod",from_rod,"to rod",to_rod)
 
-TowerOfHanoi(n-1, aux_rod, to_rod, from_rod)
-
-n = 4
+n=4
+# TowerOfHanoi(n-1, aux_rod, to_rod, from_rod)
 TowerOfHanoi(n, 'A', 'C', 'B')
 
 

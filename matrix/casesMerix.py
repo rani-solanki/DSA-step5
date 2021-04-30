@@ -1,7 +1,6 @@
 # Lower and upper Triangular Matrix Column-Major Mapping
 
-def lOWECASE (n , metix,lowerCase,uppercase):
-
+def lOWECASE (n , metix,lowerCase,uppercase):    
     for i in range(n):
         Llist = []
         ulist = []
@@ -17,8 +16,8 @@ def lOWECASE (n , metix,lowerCase,uppercase):
         lowerCase.append(Llist)
         uppercase.append(ulist)       
 
-    print(lowerCase)
-    print(uppercase)
+    print("lower colum major case",lowerCase)
+    print("uppser colum major case",uppercase)
 
 metix =[[1,2,3],
         [2,3,4],
@@ -26,8 +25,8 @@ metix =[[1,2,3],
 
 lowerCase = [ ]
 uppercase = [ ]
-length = len(metix)
 
+length = len(metix)
 lOWECASE(length, metix,lowerCase,uppercase)
 
 

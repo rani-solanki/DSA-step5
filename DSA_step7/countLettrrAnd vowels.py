@@ -20,7 +20,7 @@ def countWords(string,length):
  
         if (string[i] == ' ' or string[i] == '\n' or string[i] == '\t'):
             state = True
- 
+            
         elif state == True:
             state = False
             wc += 1

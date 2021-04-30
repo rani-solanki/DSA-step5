@@ -19,8 +19,7 @@ def Findnumber(list,Size,n):
     else:
         return "n is not present in list"
 
-    return positionlist
-
+    return positionlist1, 2
 list = [ [11, 21, 31, 41, 51 ],
     [12, 22, 32, 42, 52 ],
     [13, 23, 33, 43, 53 ],

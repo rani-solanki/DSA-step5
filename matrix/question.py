@@ -1,3 +1,4 @@
+
 def coverPoints(A, B):
     x = A[0]
     y = B[0]

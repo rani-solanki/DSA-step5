@@ -33,7 +33,6 @@ def Level(stack, root , level):
         Level(stack,root.right , level-1)
 
 def LevelOrder(stack, root):
-
     h = height(root)
     for i in range(1, h+1):
         Level(stack, root, i)

@@ -11,28 +11,21 @@ def isEmpty():
     stack = []
     return stack
 
-
 def Inorder(root):
     curr = root
     stack = isEmpty()
-
     while not False:
         while curr != None:
             stack.append(curr)
             curr = curr.left
-
         if(stack):
-
             curr = stack.pop()
             print(curr.val, end=" ")
-
             curr = curr.right
-
         else:
             break
-
     print()
-
+    
 root = Node(1)
 root.left = Node(2)
 root.right = Node(3)

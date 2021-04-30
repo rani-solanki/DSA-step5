@@ -6,7 +6,7 @@ def String(string):
     if (string.istitle()):
         c = string.lower()
         return c
-
+        
     else:
         for i in string:
             if (i.isupper()):
@@ -24,7 +24,7 @@ string = input("entre the sentence")
 length  = 0
 for chr in string:
     length = length+1
-print(length)
+
 print(String(string))
 
 

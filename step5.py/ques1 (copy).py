@@ -1,4 +1,5 @@
 import sys
+
 def secondmax(list,n):
     max2 = 0
     max = 0

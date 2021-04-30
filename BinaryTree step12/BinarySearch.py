@@ -3,7 +3,7 @@ class newNode:
 		self.data = data
 		self.left = None
 		self.right = None
-
+		
 def Search(root, key):
 	while root is not None:
 		if key > root.data:
@@ -22,7 +22,6 @@ def insert(Node, key):
 		Node.left = insert(Node.left, key)
 	elif key > Node.data:
 		Node.right = insert(Node.right, key)
-
 	return Node
 
 Bt = [23,43,51,15,67,65]

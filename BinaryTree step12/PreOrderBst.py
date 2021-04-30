@@ -12,10 +12,8 @@ def Inorder(root):
             curr = curr.left
 
         if(stack):
-
             curr = stack.pop()
             print(curr.key, end=" ")
-
             curr = curr.right
         else:
             break

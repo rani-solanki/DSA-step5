@@ -1,3 +1,4 @@
+# uppercase to 1d array 
 
 def UtrigleMETRIx(metrix,Arr,row):
     for i in range(row):

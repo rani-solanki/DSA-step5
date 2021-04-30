@@ -15,10 +15,10 @@ class Node:
 
 if __name__ == '__main__':
     root = Node(1)
-    root.left = Node(2)
+    root.left = Node(7)
     root.right = Node(3)
     root.left.left = Node(4)
-
+    
     print("Pre order Traversal")
     root.PreOrder()
     print(" ****** ")
