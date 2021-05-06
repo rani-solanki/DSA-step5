@@ -11,7 +11,7 @@ class LinkedList:
 		newNode = Node(newData)
 		newNode.next = self.head
 		self.head = newNode
-
+		
 	def addTwoLists(self, first, second):
 		Str = " "
 		str1 = " "

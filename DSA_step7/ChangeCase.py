@@ -2,7 +2,7 @@
 
 def String(string):
     NewString = " "
-    # if it is Tittle case 
+    
     if (string.istitle()):
         c = string.lower()
         return c

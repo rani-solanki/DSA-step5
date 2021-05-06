@@ -1,16 +1,9 @@
-# find the minimum pranthesis bracket 
-# find the leap of binary tree 
-# find the similar element in strings
-# find the length of string system like
-# find the node one questions
-
 def countnndSay(n):     
     # Base cases
     if (n == 1):
         return "1"
     if (n == 2):
         return "11"
-       
     s = "11"
     for i in range(3, n + 1):
         s += '$'
