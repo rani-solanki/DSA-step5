@@ -6,7 +6,6 @@ def String(string):
     if (string.istitle()):
         c = string.lower()
         return c
-        
     else:
         for i in string:
             if (i.isupper()):
@@ -25,8 +24,8 @@ length  = 0
 for chr in string:
     length = length+1
 
+# output shold be come
 print(String(string))
-
 
 
 
