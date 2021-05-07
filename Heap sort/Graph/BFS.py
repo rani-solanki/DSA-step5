@@ -22,4 +22,4 @@ if __name__ == '__main__':
     BFS = []
     graph = {0: [1, 2], 1: [2], 2: [3], 3: [1, 2]}
     print("Following is Breadth First Traversal: ")
-    print(bfs(graph, 0,BFS)
+    print(bfs(graph, 0,BFS))
